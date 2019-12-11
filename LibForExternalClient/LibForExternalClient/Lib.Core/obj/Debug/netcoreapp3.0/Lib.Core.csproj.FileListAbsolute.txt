@@ -1,0 +1,11 @@
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.Core\bin\Debug\netcoreapp3.0\Lib.Core.deps.json
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.Core\bin\Debug\netcoreapp3.0\Lib.Core.dll
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.Core\bin\Debug\netcoreapp3.0\Lib.Core.pdb
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.Core\bin\Debug\netcoreapp3.0\Lib.API.dll
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.Core\bin\Debug\netcoreapp3.0\Lib.API.pdb
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.Core\obj\Debug\netcoreapp3.0\Lib.Core.csprojAssemblyReference.cache
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.Core\obj\Debug\netcoreapp3.0\Lib.Core.AssemblyInfoInputs.cache
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.Core\obj\Debug\netcoreapp3.0\Lib.Core.AssemblyInfo.cs
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.Core\obj\Debug\netcoreapp3.0\Lib.Core.csproj.CopyComplete
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.Core\obj\Debug\netcoreapp3.0\Lib.Core.dll
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.Core\obj\Debug\netcoreapp3.0\Lib.Core.pdb

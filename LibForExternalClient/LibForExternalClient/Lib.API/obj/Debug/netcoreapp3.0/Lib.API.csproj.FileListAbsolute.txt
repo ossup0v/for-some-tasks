@@ -1,0 +1,7 @@
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.API\bin\Debug\netcoreapp3.0\Lib.API.deps.json
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.API\bin\Debug\netcoreapp3.0\Lib.API.dll
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.API\bin\Debug\netcoreapp3.0\Lib.API.pdb
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp3.0\Lib.API.AssemblyInfoInputs.cache
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp3.0\Lib.API.AssemblyInfo.cs
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp3.0\Lib.API.dll
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp3.0\Lib.API.pdb
