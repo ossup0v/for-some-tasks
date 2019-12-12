@@ -1,0 +1,9 @@
+C:\gitrepos\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp2.2\Lib.API.csprojAssemblyReference.cache
+C:\gitrepos\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp2.2\Lib.API.csproj.CoreCompileInputs.cache
+C:\gitrepos\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp2.2\Lib.API.AssemblyInfoInputs.cache
+C:\gitrepos\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp2.2\Lib.API.AssemblyInfo.cs
+C:\gitrepos\LibForExternalClient\LibForExternalClient\Lib.API\bin\Debug\netcoreapp2.2\Lib.API.deps.json
+C:\gitrepos\LibForExternalClient\LibForExternalClient\Lib.API\bin\Debug\netcoreapp2.2\Lib.API.dll
+C:\gitrepos\LibForExternalClient\LibForExternalClient\Lib.API\bin\Debug\netcoreapp2.2\Lib.API.pdb
+C:\gitrepos\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp2.2\Lib.API.dll
+C:\gitrepos\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp2.2\Lib.API.pdb

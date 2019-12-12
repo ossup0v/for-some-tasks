@@ -1,4 +1,5 @@
 ﻿using System;
+using Lib.API;
 using Lib.Core;
 using NUnit.Framework;
 
@@ -11,11 +12,19 @@ namespace Lib.Test
         public void TemporaryTest()
         {
             var math = new LibCore();
-            Assert.IsTrue(math.IsRightTriangle(5, 4, 3));
-            Assert.IsFalse(math.IsRightTriangle(5, 4, 2));
 
-            Assert.AreEqual(math.MathArea(5, 4, 3), 6);
-            Assert.AreEqual(math.MathArea(5), 5 * 5 * Math.PI);
+            var circule = new Circle(5d);
+            math.Mathing(circule);
+            Assert.AreEqual(circule.Area, 5 * 5 * Math.PI);
+
+            var triangle = new Triangle(5, 4, 3);
+            math.Mathing(triangle);
+            Assert.AreEqual(triangle.Area, 6);
+            Assert.IsTrue(triangle.IsRightTriangle);
+
+            triangle = new Triangle(5, 4, 2);
+            math.Mathing(triangle);
+            Assert.IsFalse(triangle.IsRightTriangle);
         }
     }
 }

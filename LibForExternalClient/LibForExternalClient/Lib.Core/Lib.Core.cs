@@ -5,12 +5,38 @@ namespace Lib.Core
 {
     public class LibCore : LibAPI
     {
-        public double MathArea(double radius)
+        public void Mathing(Figure figure)
+        {
+            switch (figure.Type)
+            {
+                case FigureType.Unexpected:
+                    goto default;
+                case FigureType.Triangle:
+                    break;
+                case FigureType.Circle:
+                    break;
+                default:
+                    throw new Exception();
+            }
+        }
+
+        private void ProcessedCircle(Circle circle)
+        {
+            circle.Area = MathArea(circle.Radius);
+        }
+
+        private void ProcessedTriangle(Triangle triangle)
+        {
+            triangle.Area = MathArea(triangle.SideA, triangle.SideB, triangle.SideC);
+            triangle.IsRightTriangle = IsRightTriangle(triangle.SideA, triangle.SideB, triangle.SideC);
+        }
+
+        private double MathArea(double radius)
         {
             return Math.PI * Math.Pow(radius, 2);
         }
 
-        public double MathArea(double sideA, double sideB, double sideC)
+        private double MathArea(double sideA, double sideB, double sideC)
         {
             if (!IsTriangle(sideA, sideB, sideC))
                 throw new Exception($"Unvalid sides: {sideA}-{sideB}-{sideC}");
@@ -19,7 +45,7 @@ namespace Lib.Core
             return Math.Pow(hp * (hp - sideA) * (hp - sideB) * (hp - sideC), 0.5);
         }
 
-        public bool IsRightTriangle(double sideA, double sideB, double sideC)
+        private bool IsRightTriangle(double sideA, double sideB, double sideC)
         {
             if (!IsTriangle(sideA, sideB, sideC))
                 throw new Exception($"Unvalid sides: {sideA}-{sideB}-{sideC}");
@@ -59,7 +85,7 @@ namespace Lib.Core
 
         private bool IsTriangle(double sideA, double sideB, double sideC)
         {
-            return (sideA + sideB >= sideC) && (sideB + sideC >= sideA) && (sideC + sideA >= sideB);
+            return (sideA + sideB > sideC) && (sideB + sideC > sideA) && (sideC + sideA > sideB);
         }
     }
 }
