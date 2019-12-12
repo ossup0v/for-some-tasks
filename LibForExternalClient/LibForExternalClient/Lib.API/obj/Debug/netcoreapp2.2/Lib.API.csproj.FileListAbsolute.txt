@@ -7,3 +7,11 @@ C:\gitrepos\LibForExternalClient\LibForExternalClient\Lib.API\bin\Debug\netcorea
 C:\gitrepos\LibForExternalClient\LibForExternalClient\Lib.API\bin\Debug\netcoreapp2.2\Lib.API.pdb
 C:\gitrepos\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp2.2\Lib.API.dll
 C:\gitrepos\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp2.2\Lib.API.pdb
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.API\bin\Debug\netcoreapp2.2\Lib.API.deps.json
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.API\bin\Debug\netcoreapp2.2\Lib.API.dll
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.API\bin\Debug\netcoreapp2.2\Lib.API.pdb
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp2.2\Lib.API.csprojAssemblyReference.cache
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp2.2\Lib.API.AssemblyInfoInputs.cache
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp2.2\Lib.API.AssemblyInfo.cs
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp2.2\Lib.API.dll
+E:\GitRepos\for-some-tasks\LibForExternalClient\LibForExternalClient\Lib.API\obj\Debug\netcoreapp2.2\Lib.API.pdb

@@ -4,7 +4,7 @@ using Lib.Core;
 using NUnit.Framework;
 
 namespace Lib.Test
-{
+{ 
     public class Tests
     {
         [Test]

@@ -12,8 +12,10 @@ namespace Lib.Core
                 case FigureType.Unexpected:
                     goto default;
                 case FigureType.Triangle:
+                    ProcessedTriangle((Triangle)figure);
                     break;
                 case FigureType.Circle:
+                    ProcessedCircle((Circle)figure);
                     break;
                 default:
                     throw new Exception();
