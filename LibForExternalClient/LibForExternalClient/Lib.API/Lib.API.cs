@@ -3,9 +3,9 @@
     public interface LibAPI
     {
         /// <summary>
-        /// Math parameters figure
+        /// Math  figure area
         /// </summary>
-        /// <param name="figure">figure</param>
-        void Mathing(Figure figure);
+        /// <param name="sides">sides of figure</param>
+        double Area(int[] sides); 
     }
 }

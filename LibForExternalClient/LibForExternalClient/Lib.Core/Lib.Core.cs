@@ -1,93 +1,26 @@
 ﻿using Lib.API;
 using System;
+using System.Collections.Generic;
 
 namespace Lib.Core
 {
     public class LibCore : LibAPI
     {
-        public void Mathing(Figure figure)
+        private Dictionary<int, IFigure> _map = new Dictionary<int, IFigure>()
+        { [1] = new Circle() ,
+          [3] = new Triangle() };
+
+        public double Area(int[] sides)
         {
-            switch (figure.Type)
+            if (_map.TryGetValue(sides.Length, out var figure))
             {
-                case FigureType.Unexpected:
-                    goto default;
-                case FigureType.Triangle:
-                    ProcessedTriangle((Triangle)figure);
-                    break;
-                case FigureType.Circle:
-                    ProcessedCircle((Circle)figure);
-                    break;
-                default:
-                    throw new Exception();
+                figure.SetSides(sides);
+                return figure.Area();
             }
-        }
-
-        private void ProcessedCircle(Circle circle)
-        {
-            circle.Area = MathArea(circle.Radius);
-        }
-
-        private void ProcessedTriangle(Triangle triangle)
-        {
-            triangle.Area = MathArea(triangle.SideA, triangle.SideB, triangle.SideC);
-            triangle.IsRightTriangle = IsRightTriangle(triangle.SideA, triangle.SideB, triangle.SideC);
-        }
-
-        private double MathArea(double radius)
-        {
-            return Math.PI * Math.Pow(radius, 2);
-        }
-
-        private double MathArea(double sideA, double sideB, double sideC)
-        {
-            if (!IsTriangle(sideA, sideB, sideC))
-                throw new Exception($"Unvalid sides: {sideA}-{sideB}-{sideC}");
-
-            var hp = MathHalfPerimeter(sideA, sideB, sideC);
-            return Math.Pow(hp * (hp - sideA) * (hp - sideB) * (hp - sideC), 0.5);
-        }
-
-        private bool IsRightTriangle(double sideA, double sideB, double sideC)
-        {
-            if (!IsTriangle(sideA, sideB, sideC))
-                throw new Exception($"Unvalid sides: {sideA}-{sideB}-{sideC}");
-            
-            double biggerSide = 0;
-            double secondSide = 0;
-            double thridSide = 0;
-            
-            if (sideA > sideB && sideA > sideC)
-            {
-                biggerSide = sideA;
-                secondSide = sideB;
-                thridSide = sideC;
-            }
-            else if (sideB > sideA && sideB > sideC)
-            {
-
-                biggerSide = sideC;
-                secondSide = sideB;
-                thridSide = sideA;
-            } 
             else
             {
-                biggerSide = sideB;
-                secondSide = sideC;
-                thridSide = sideA;
+                throw new NotImplementedException();
             }
-
-            return Math.Pow(biggerSide, 2) == Math.Pow(secondSide, 2) + Math.Pow(thridSide, 2);
-        }
-
-        private double MathHalfPerimeter(double sideA, double sideB, double sideC)
-        {
-            var perimeter = sideA + sideB + sideC;
-            return perimeter/2;
-        }
-
-        private bool IsTriangle(double sideA, double sideB, double sideC)
-        {
-            return (sideA + sideB > sideC) && (sideB + sideC > sideA) && (sideC + sideA > sideB);
         }
     }
 }
