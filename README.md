@@ -45,6 +45,7 @@ SQL - хорош тем что в отличие от noSQL языков зап�
 
 8.
 https://github.com/ossup0v/for-some-tasks
+
 https://github.com/ossup0v/data-structures
 
 9.
