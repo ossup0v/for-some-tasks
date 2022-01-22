@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29519.87
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Test", "Lib.Test\Lib.Test.csproj", "{BD5A0A55-700E-4C60-B834-88BAC34BD72B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib.Test", "Lib.Test\Lib.Test.csproj", "{BD5A0A55-700E-4C60-B834-88BAC34BD72B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.API", "Lib.API\Lib.API.csproj", "{57680892-81B1-4831-B71E-F84A9C255CF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib.API", "Lib.API\Lib.API.csproj", "{57680892-81B1-4831-B71E-F84A9C255CF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Core", "Lib.Core\Lib.Core.csproj", "{3C7B958D-371E-4D0C-B041-BDDB0FD26057}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib.Core", "Lib.Core\Lib.Core.csproj", "{3C7B958D-371E-4D0C-B041-BDDB0FD26057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresV2", "FiguresV2\FiguresV2.csproj", "{B5FC86EC-E0CA-4346-8D48-9891FD327CB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3C7B958D-371E-4D0C-B041-BDDB0FD26057}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C7B958D-371E-4D0C-B041-BDDB0FD26057}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C7B958D-371E-4D0C-B041-BDDB0FD26057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5FC86EC-E0CA-4346-8D48-9891FD327CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5FC86EC-E0CA-4346-8D48-9891FD327CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5FC86EC-E0CA-4346-8D48-9891FD327CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5FC86EC-E0CA-4346-8D48-9891FD327CB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
